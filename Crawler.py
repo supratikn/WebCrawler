@@ -23,7 +23,7 @@ class Crawler:
                 currentLinks.extend(currentApp.links)
                 self.apps.append(currentApp)
                 
-                time.sleep(5)
+                time.sleep(5)# so apple doesn't sue me
                 
             self.currentDepth+=1
             self.links.append(currentLinks)    
